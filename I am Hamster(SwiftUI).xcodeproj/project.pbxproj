@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B1E6593267611B000279F55 /* I_am_Hamster_SwiftUI_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1E6592267611B000279F55 /* I_am_Hamster_SwiftUI_App.swift */; };
+		4B1E6595267611B000279F55 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1E6594267611B000279F55 /* ContentView.swift */; };
+		4B1E6597267611B100279F55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B1E6596267611B100279F55 /* Assets.xcassets */; };
+		4B1E659A267611B100279F55 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B1E6599267611B100279F55 /* Preview Assets.xcassets */; };
+		4B1E65A5267611B100279F55 /* I_am_Hamster_SwiftUI_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1E65A4267611B100279F55 /* I_am_Hamster_SwiftUI_Tests.swift */; };
+		4B1E65B0267611B100279F55 /* I_am_Hamster_SwiftUI_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1E65AF267611B100279F55 /* I_am_Hamster_SwiftUI_UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B1E65A1267611B100279F55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B1E6587267611B000279F55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B1E658E267611B000279F55;
+			remoteInfo = "I am Hamster(SwiftUI)";
+		};
+		4B1E65AC267611B100279F55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B1E6587267611B000279F55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B1E658E267611B000279F55;
+			remoteInfo = "I am Hamster(SwiftUI)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B1E658F267611B000279F55 /* I am Hamster(SwiftUI).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "I am Hamster(SwiftUI).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B1E6592267611B000279F55 /* I_am_Hamster_SwiftUI_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I_am_Hamster_SwiftUI_App.swift; sourceTree = "<group>"; };
+		4B1E6594267611B000279F55 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4B1E6596267611B100279F55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B1E6599267611B100279F55 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4B1E659B267611B100279F55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B1E65A0267611B100279F55 /* I am Hamster(SwiftUI)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "I am Hamster(SwiftUI)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B1E65A4267611B100279F55 /* I_am_Hamster_SwiftUI_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I_am_Hamster_SwiftUI_Tests.swift; sourceTree = "<group>"; };
+		4B1E65A6267611B100279F55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B1E65AB267611B100279F55 /* I am Hamster(SwiftUI)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "I am Hamster(SwiftUI)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B1E65AF267611B100279F55 /* I_am_Hamster_SwiftUI_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I_am_Hamster_SwiftUI_UITests.swift; sourceTree = "<group>"; };
+		4B1E65B1267611B100279F55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B1E658C267611B000279F55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B1E659D267611B100279F55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B1E65A8267611B100279F55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B1E6586267611B000279F55 = {
+			isa = PBXGroup;
+			children = (
+				4B1E6591267611B000279F55 /* I am Hamster(SwiftUI) */,
+				4B1E65A3267611B100279F55 /* I am Hamster(SwiftUI)Tests */,
+				4B1E65AE267611B100279F55 /* I am Hamster(SwiftUI)UITests */,
+				4B1E6590267611B000279F55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B1E6590267611B000279F55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B1E658F267611B000279F55 /* I am Hamster(SwiftUI).app */,
+				4B1E65A0267611B100279F55 /* I am Hamster(SwiftUI)Tests.xctest */,
+				4B1E65AB267611B100279F55 /* I am Hamster(SwiftUI)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B1E6591267611B000279F55 /* I am Hamster(SwiftUI) */ = {
+			isa = PBXGroup;
+			children = (
+				4B1E6592267611B000279F55 /* I_am_Hamster_SwiftUI_App.swift */,
+				4B1E6594267611B000279F55 /* ContentView.swift */,
+				4B1E6596267611B100279F55 /* Assets.xcassets */,
+				4B1E659B267611B100279F55 /* Info.plist */,
+				4B1E6598267611B100279F55 /* Preview Content */,
+			);
+			path = "I am Hamster(SwiftUI)";
+			sourceTree = "<group>";
+		};
+		4B1E6598267611B100279F55 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4B1E6599267611B100279F55 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4B1E65A3267611B100279F55 /* I am Hamster(SwiftUI)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4B1E65A4267611B100279F55 /* I_am_Hamster_SwiftUI_Tests.swift */,
+				4B1E65A6267611B100279F55 /* Info.plist */,
+			);
+			path = "I am Hamster(SwiftUI)Tests";
+			sourceTree = "<group>";
+		};
+		4B1E65AE267611B100279F55 /* I am Hamster(SwiftUI)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				4B1E65AF267611B100279F55 /* I_am_Hamster_SwiftUI_UITests.swift */,
+				4B1E65B1267611B100279F55 /* Info.plist */,
+			);
+			path = "I am Hamster(SwiftUI)UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B1E658E267611B000279F55 /* I am Hamster(SwiftUI) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B1E65B4267611B100279F55 /* Build configuration list for PBXNativeTarget "I am Hamster(SwiftUI)" */;
+			buildPhases = (
+				4B1E658B267611B000279F55 /* Sources */,
+				4B1E658C267611B000279F55 /* Frameworks */,
+				4B1E658D267611B000279F55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "I am Hamster(SwiftUI)";
+			productName = "I am Hamster(SwiftUI)";
+			productReference = 4B1E658F267611B000279F55 /* I am Hamster(SwiftUI).app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B1E659F267611B100279F55 /* I am Hamster(SwiftUI)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B1E65B7267611B100279F55 /* Build configuration list for PBXNativeTarget "I am Hamster(SwiftUI)Tests" */;
+			buildPhases = (
+				4B1E659C267611B100279F55 /* Sources */,
+				4B1E659D267611B100279F55 /* Frameworks */,
+				4B1E659E267611B100279F55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B1E65A2267611B100279F55 /* PBXTargetDependency */,
+			);
+			name = "I am Hamster(SwiftUI)Tests";
+			productName = "I am Hamster(SwiftUI)Tests";
+			productReference = 4B1E65A0267611B100279F55 /* I am Hamster(SwiftUI)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4B1E65AA267611B100279F55 /* I am Hamster(SwiftUI)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B1E65BA267611B100279F55 /* Build configuration list for PBXNativeTarget "I am Hamster(SwiftUI)UITests" */;
+			buildPhases = (
+				4B1E65A7267611B100279F55 /* Sources */,
+				4B1E65A8267611B100279F55 /* Frameworks */,
+				4B1E65A9267611B100279F55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B1E65AD267611B100279F55 /* PBXTargetDependency */,
+			);
+			name = "I am Hamster(SwiftUI)UITests";
+			productName = "I am Hamster(SwiftUI)UITests";
+			productReference = 4B1E65AB267611B100279F55 /* I am Hamster(SwiftUI)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B1E6587267611B000279F55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					4B1E658E267611B000279F55 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					4B1E659F267611B100279F55 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 4B1E658E267611B000279F55;
+					};
+					4B1E65AA267611B100279F55 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 4B1E658E267611B000279F55;
+					};
+				};
+			};
+			buildConfigurationList = 4B1E658A267611B000279F55 /* Build configuration list for PBXProject "I am Hamster(SwiftUI)" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B1E6586267611B000279F55;
+			productRefGroup = 4B1E6590267611B000279F55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B1E658E267611B000279F55 /* I am Hamster(SwiftUI) */,
+				4B1E659F267611B100279F55 /* I am Hamster(SwiftUI)Tests */,
+				4B1E65AA267611B100279F55 /* I am Hamster(SwiftUI)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B1E658D267611B000279F55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B1E659A267611B100279F55 /* Preview Assets.xcassets in Resources */,
+				4B1E6597267611B100279F55 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B1E659E267611B100279F55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B1E65A9267611B100279F55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B1E658B267611B000279F55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B1E6595267611B000279F55 /* ContentView.swift in Sources */,
+				4B1E6593267611B000279F55 /* I_am_Hamster_SwiftUI_App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B1E659C267611B100279F55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B1E65A5267611B100279F55 /* I_am_Hamster_SwiftUI_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B1E65A7267611B100279F55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B1E65B0267611B100279F55 /* I_am_Hamster_SwiftUI_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B1E65A2267611B100279F55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B1E658E267611B000279F55 /* I am Hamster(SwiftUI) */;
+			targetProxy = 4B1E65A1267611B100279F55 /* PBXContainerItemProxy */;
+		};
+		4B1E65AD267611B100279F55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B1E658E267611B000279F55 /* I am Hamster(SwiftUI) */;
+			targetProxy = 4B1E65AC267611B100279F55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4B1E65B2267611B100279F55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4B1E65B3267611B100279F55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B1E65B5267611B100279F55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"I am Hamster(SwiftUI)/Preview Content\"";
+				DEVELOPMENT_TEAM = 7LQHS2KMLW;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "I am Hamster(SwiftUI)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wiwisun.I-am-Hamster-SwiftUI-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B1E65B6267611B100279F55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"I am Hamster(SwiftUI)/Preview Content\"";
+				DEVELOPMENT_TEAM = 7LQHS2KMLW;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "I am Hamster(SwiftUI)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wiwisun.I-am-Hamster-SwiftUI-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4B1E65B8267611B100279F55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7LQHS2KMLW;
+				INFOPLIST_FILE = "I am Hamster(SwiftUI)Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wiwisun.I-am-Hamster-SwiftUI-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/I am Hamster(SwiftUI).app/I am Hamster(SwiftUI)";
+			};
+			name = Debug;
+		};
+		4B1E65B9267611B100279F55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7LQHS2KMLW;
+				INFOPLIST_FILE = "I am Hamster(SwiftUI)Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wiwisun.I-am-Hamster-SwiftUI-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/I am Hamster(SwiftUI).app/I am Hamster(SwiftUI)";
+			};
+			name = Release;
+		};
+		4B1E65BB267611B100279F55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7LQHS2KMLW;
+				INFOPLIST_FILE = "I am Hamster(SwiftUI)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wiwisun.I-am-Hamster-SwiftUI-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "I am Hamster(SwiftUI)";
+			};
+			name = Debug;
+		};
+		4B1E65BC267611B100279F55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7LQHS2KMLW;
+				INFOPLIST_FILE = "I am Hamster(SwiftUI)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wiwisun.I-am-Hamster-SwiftUI-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "I am Hamster(SwiftUI)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B1E658A267611B000279F55 /* Build configuration list for PBXProject "I am Hamster(SwiftUI)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B1E65B2267611B100279F55 /* Debug */,
+				4B1E65B3267611B100279F55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B1E65B4267611B100279F55 /* Build configuration list for PBXNativeTarget "I am Hamster(SwiftUI)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B1E65B5267611B100279F55 /* Debug */,
+				4B1E65B6267611B100279F55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B1E65B7267611B100279F55 /* Build configuration list for PBXNativeTarget "I am Hamster(SwiftUI)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B1E65B8267611B100279F55 /* Debug */,
+				4B1E65B9267611B100279F55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B1E65BA267611B100279F55 /* Build configuration list for PBXNativeTarget "I am Hamster(SwiftUI)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B1E65BB267611B100279F55 /* Debug */,
+				4B1E65BC267611B100279F55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B1E6587267611B000279F55 /* Project object */;
+}
